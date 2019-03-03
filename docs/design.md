@@ -14,3 +14,25 @@
 * Get caller data.
 * Assign callers.
 * Given code, fetch caller information.
+
+# Model Sources
+* User login (10pm Friday)
+* Caller
+  * Name
+  * Disambiguator
+  * Code
+  * Email
+  * Active
+* Call
+  * Caller UUID
+  * Callee UUID
+  * Active
+  * Block
+  * assign date
+* Question
+  * Question
+  * Author
+  * Valid
+  * Date Added
+  
+  

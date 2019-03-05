@@ -2,8 +2,11 @@
 
 import PyPDF2
 import re
+import json
 
 lastnameRE=re.compile("^[A-Z]{3,}")
+phoneRE=re.compile("\d{3,}.?\d{4,}")
+firstnameRE=re.compile("[A-Z][a-z]")
 def extract_names(filename):
     text = ""
     with open(filename,'rb') as  infile:
@@ -15,37 +18,32 @@ def extract_names(filename):
             i+=1
     return text
 
-def extract_records(text):
-    def valid(record):
-        return (bool(lastnameRE.search(record.get('last_name',""))))
-    fields = 7 
-    keys = ["last_name",
-            "first_name",
-            "number",
-            "office",
-            "title",
-            "location"]
-    record = {}
-    for line in text.split("\n"):
-        
-        if fields < 6:
-            record[keys[fields]] = line.strip()
-            fields += 1
-        if fields==6:
-            if (valid(record)):
-                yield record
-            fields = 0
-            record = {}
-        if line.strip().startswith("LOCATION"):
-            fields = 0
-            record = {}
+def spit_records(text):
+    def is_last_name(field):
+        if (field==(field.upper())):
+            return True
+        else:
+            return False
+    def is_number(field):
+        return bool(phoneRE.search(field))
+    def is_first_name(field):
+        return bool(firstnameRE.search(field))
 
+    last = ""
+    second_last = ""
+    sequence = text.split("\n")
+    for (a,b,c) in zip(sequence[:-2],sequence[1:-1],sequence[2:]):
+        if is_last_name(a) and is_number(c) and is_first_name(b):
+            test_email = "{}.{}@state.nm.us".format(b,a).replace(" ","_").replace("(","").replace(")","")
+            yield {'name' : "{} {}".format(b,a),
+                   'email':test_email}
 
             
-            
-            
-            
+
             
 if (__name__=="__main__"):
-    names = [k for k in extract_records(extract_names('names.pdf'))]
+    names = [n for n in spit_records(extract_names('names.pdf'))]
+    print(names)
     print(len(names))
+    with open("names.json","w+") as outfile:
+        json.dump(names,outfile)

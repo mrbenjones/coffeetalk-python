@@ -1,0 +1,19 @@
+body {
+    background-color : black;
+    color: white
+}
+.inst-display {
+    font-size: x-large;
+    font-family: sans-serif;
+		   
+}
+.name_output {
+    font-size: x-large;
+    border: 1px white solid;
+    max-width:500px;
+    margin: 0 auto;
+    display: none;
+}
+.nmdoh {
+    font-family: sans-serif
+}

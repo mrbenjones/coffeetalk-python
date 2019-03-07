@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'talk';
+  vendor = 'Population and Community Health Bureau'
+  title = 'Coffee Talk';
+  caller = "Ted";
 }

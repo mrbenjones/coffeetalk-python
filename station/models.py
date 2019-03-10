@@ -29,8 +29,6 @@ class Caller(db.Model):
     def apply_code(self):
         self.code=hashlib.md5(self.full_name.encode("utf-16","ignore")).hexdigest()
 
-
-
 class Question(db.Model):
     question = db.Column(db.Integer, primary_key=True)
     text = db.Column(db.String(255),nullable=False)

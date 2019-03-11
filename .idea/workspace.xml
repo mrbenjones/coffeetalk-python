@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="685a217e-3cbf-4eac-9591-e7698d571501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/station/calls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/4001f23244dc_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/bd09271a1b3c_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preload/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/preload/questions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/station/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/station/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="685a217e-3cbf-4eac-9591-e7698d571501" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="105" column="57" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
+            <state relative-caret-position="535">
+              <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1552261291110" expanded="true" signature="749:830" ph="..." />
@@ -478,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="105" column="57" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
+        <state relative-caret-position="535">
+          <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1552261291110" expanded="true" signature="749:830" ph="..." />

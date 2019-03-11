@@ -1,6 +1,8 @@
 from station.models import *
 from station import db
 import random
+from sqlalchemy import or_
+
 def callers_for_code(code):
     """
     Return all users matching the code.
@@ -10,12 +12,13 @@ def callers_for_code(code):
     return db.session.query(Caller).filter(Caller.code==code).all()
 
 
-def calls_for_callers(caller):
+def prior_links(caller):
     """
-    Returns a list of call objects for the caller chose, 
-    :return: 
+    Return a list of the caller pkids linked to a given caller from dead calls.
+    :param caller:
+    :return: a list of ids from the caller table.
     """
-    return db.session.query(Call).filter(Call.caller == caller.caller).all()
+    return []
 
 def caller_active(caller):
     """
@@ -53,6 +56,10 @@ def create_call(caller,callee,question=None):
     return new_call
 
 def all_callers():
+    """
+
+    :return: a list of all callers.
+    """
     return db.session.query(Caller).all()
 
 def available_callers():
@@ -62,13 +69,39 @@ def available_callers():
     """
     return [c for c in all_callers() if not(caller_active(c))]
 
-def create_call_list():
+
+def previously_assigned(caller):
+    """
+    Return true if there is an inactive call between caller and callee
+    :param caller:
+    :param callee:
+    :return: true if there has been a call between caller and callee.  False otherwise.
+    """
+
+
+def create_call_list(caller_pool = None):
     """
     Return a list of calls assigned from the list of potential callers.
     Generate the list, shuffle them to create order, and then link each person to
     the first person they haven't been linked to before
     :return:
     """
-    pool_of_callers = available_callers()
+    if (caller_pool is not None):
+        pool_of_callers = caller_pool
+    else:
+        pool_of_callers = available_callers()
+
     random.shuffle(pool_of_callers)
+    new_calls = []
+    N = len(pool_of_callers)
+    for (i,c) in enumerate(pool_of_callers):
+        links = prior_links(c)
+        while(j<N):
+            d = pool_of_callers[(i+j) % N]
+            if (d not in links):
+                new_calls.append(create_call(c,d))
+                break
+    return new_calls
+
+
     return []

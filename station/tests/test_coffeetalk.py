@@ -37,6 +37,13 @@ def test_code_roundtrip():
         assert(len(corresponding_list)>0)
         assert(len(corresponding_list)<2)
 
+def sample_user_for_name(name):
+    sample = Caller()
+    sample.full_name = "{} YYYYY".format(name.upper())
+    sample.email = "{}@xxx.x".format(name)
+    sample.apply_code()
+    return sample
+
 @pytest.fixture()
 def two_test_callers():
     """
@@ -108,3 +115,27 @@ def test_create_call(two_test_callers):
     db.session.delete(caller_a)
     db.session.delete(caller_b)
     db.session.commit()
+
+@pytest.fixture
+def ten_user_list():
+    """
+
+    :return:
+    """
+    namestrings = ["aaaaaa","bbbbbb","cccccc","dddddd","eeeeee","ffffff",
+                   "gggggg","hhhhhh","iiiiii","jjjjjj"]
+
+    users = [sample_user_for_name(u) for u in namestrings]
+    for u in users:
+        db.session.add(u)
+    db.session.commit()
+    return users
+
+
+def test_circle_of_links(ten_user_list):
+
+    for u in ten_user_list:
+        db.session.delete(u)
+    db.session.commit()
+    sample_users = db.session.query(Caller).filter(Caller.email.endswith("xxx.x")).all()
+    assert(not(sample_users))

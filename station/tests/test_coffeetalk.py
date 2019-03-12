@@ -133,9 +133,23 @@ def ten_user_list():
 
 
 def test_circle_of_links(ten_user_list):
+    call_list = create_call_list(ten_user_list)
+    for c in call_list:
+        db.session.add(c)
+    db.session.commit()
 
+    avc = available_callers()
+    intersect = [u for u in ten_user_list if u in avc]
+    assert(not(intersect))
+    for c in call_list:
+        db.session.delete(c)
+    db.session.commit()
+    avc = available_callers()
+    intersect = [u for u in ten_user_list if u in avc]
+    assert(intersect)
     for u in ten_user_list:
         db.session.delete(u)
     db.session.commit()
     sample_users = db.session.query(Caller).filter(Caller.email.endswith("xxx.x")).all()
+
     assert(not(sample_users))

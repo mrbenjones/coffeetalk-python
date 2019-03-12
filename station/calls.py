@@ -96,11 +96,13 @@ def create_call_list(caller_pool = None):
     N = len(pool_of_callers)
     for (i,c) in enumerate(pool_of_callers):
         links = prior_links(c)
+        j=0
         while(j<N):
             d = pool_of_callers[(i+j) % N]
             if (d not in links):
                 new_calls.append(create_call(c,d))
                 break
+            j+=1
     return new_calls
 
 

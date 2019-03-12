@@ -3,7 +3,7 @@ import pytest
 from station import db
 import hashlib
 from station.calls import  *
-
+import json
 def test_user_roundtrip():
     onetime = User()
     onetime.set_password("test")
@@ -137,7 +137,10 @@ def test_circle_of_links(ten_user_list):
     for c in call_list:
         db.session.add(c)
     db.session.commit()
-
+    for c in ten_user_list:
+        contacts = call_data_for_code(c.code)
+        assert(json.dumps(contacts).startswith("["))
+        assert("{" in json.dumps(contacts))
     avc = available_callers()
     intersect = [u for u in ten_user_list if u in avc]
     assert(not(intersect))
@@ -153,3 +156,4 @@ def test_circle_of_links(ten_user_list):
     sample_users = db.session.query(Caller).filter(Caller.email.endswith("xxx.x")).all()
 
     assert(not(sample_users))
+

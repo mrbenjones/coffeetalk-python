@@ -11,6 +11,30 @@ def callers_for_code(code):
     """
     return db.session.query(Caller).filter(Caller.code==code).all()
 
+def call_data_for_code(code):
+    """
+    Return callee, question, and call for the code of the caller.
+
+    :param code:
+    :return: A dictionary with keys pointing to the caller object being called, and the question asked.
+    """
+
+    return [rq for c in callers_for_code(code) for rq in recipient_question_coroutine(c)]
+
+def recipient_question_coroutine(caller):
+    """
+
+    :param caller:
+    :return:
+    """
+    calls = db.session.query(Call).filter(Call.caller==caller.caller).all()
+    for call in calls:
+        question = db.session.query(Question).get(call.question)
+        callee = db.session.query(Caller).get(call.callee)
+        yield {'question': question.text,
+               'callee' : callee.full_name,
+               'email' : callee.email}
+
 
 def prior_links(caller):
     """

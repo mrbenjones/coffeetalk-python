@@ -18,7 +18,9 @@ def prior_links(caller):
     :param caller:
     :return: a list of ids from the caller table.
     """
-    return []
+    outgoing = set(db.session.query(Call).filter(Call.caller==caller.caller).all())
+    incoming = set(db.session.query(Call).filter(Call.callee==caller.caller).all())
+    return list(outgoing.union(incoming))
 
 def caller_active(caller):
     """

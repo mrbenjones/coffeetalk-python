@@ -4,7 +4,6 @@
     <list default="true" id="685a217e-3cbf-4eac-9591-e7698d571501" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app_new.db" beforeDir="false" afterPath="$PROJECT_DIR$/app_new.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/station/calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/station/calls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/station/tests/test_coffeetalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/station/tests/test_coffeetalk.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +41,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="51" />
-          <entry key="py" value="8754" />
+          <entry key="py" value="8979" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="51" />
-          <entry key="Python" value="8754" />
+          <entry key="Python" value="8979" />
         </counts>
       </usages-collector>
     </session>
@@ -110,17 +109,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/station/calls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+            <state relative-caret-position="293">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1552357567322" expanded="true" signature="207:212" ph="..." />
-                <marker date="1552357567322" expanded="true" signature="302:483" ph="..." />
-                <marker date="1552357567322" expanded="true" signature="815:987" ph="..." />
-                <marker date="1552357567322" expanded="true" signature="1032:1401" ph="..." />
-                <marker date="1552357567322" expanded="true" signature="1472:1516" ph="..." />
-                <marker date="1552357567322" expanded="true" signature="1759:1975" ph="..." />
-                <marker date="1552357567322" expanded="true" signature="2766:2770" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="207:212" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="302:679" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="705:710" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="1011:1183" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="1228:1597" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="1668:1712" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="1955:2171" ph="..." />
+                <marker date="1552358428232" expanded="true" signature="2962:2966" ph="..." />
               </folding>
             </state>
           </provider>
@@ -477,17 +477,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/station/calls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+        <state relative-caret-position="293">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1552357567322" expanded="true" signature="207:212" ph="..." />
-            <marker date="1552357567322" expanded="true" signature="302:483" ph="..." />
-            <marker date="1552357567322" expanded="true" signature="815:987" ph="..." />
-            <marker date="1552357567322" expanded="true" signature="1032:1401" ph="..." />
-            <marker date="1552357567322" expanded="true" signature="1472:1516" ph="..." />
-            <marker date="1552357567322" expanded="true" signature="1759:1975" ph="..." />
-            <marker date="1552357567322" expanded="true" signature="2766:2770" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="207:212" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="302:679" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="705:710" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="1011:1183" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="1228:1597" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="1668:1712" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="1955:2171" ph="..." />
+            <marker date="1552358428232" expanded="true" signature="2962:2966" ph="..." />
           </folding>
         </state>
       </provider>

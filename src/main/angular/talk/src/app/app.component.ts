@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  vendor = 'Population and Community Health Bureau'
+  vendor = 'Population and Community Health Bureau';
   title = 'Coffee Talk';
-  caller = "Ted";
+  caller = 'Ted';
 }

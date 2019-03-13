@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-namebox',
@@ -7,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NameboxComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
-  record(event:any,bee:string="buns"){
+  record(event: any, bee: string = 'buns') {
     console.log(event);
     console.log(bee);
   }

@@ -1,8 +1,14 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NamedrawComponent } from './namedraw/namedraw.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {NamedrawComponent} from './namedraw/namedraw.component';
+import {RouterModule, Routes} from '@angular/router';
+
+// const routes: Routes = [
+//   {path: '', component: BlankComponent},
+//   {path: 'about', component: AboutComponent}
+// ];
 
 @NgModule({
   declarations: [
@@ -16,4 +22,5 @@ import { NamedrawComponent } from './namedraw/namedraw.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

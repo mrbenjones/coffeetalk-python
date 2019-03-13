@@ -8,3 +8,9 @@
   font-size: xx-large;
   font-family: size-serif;
 }
+
+.help{
+  background-color:black;
+  color: white;
+  border: white 1px double;
+}

@@ -7,10 +7,10 @@ import {RouterModule, Routes} from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BlankComponent } from './blank/blank.component';
 
-// const routes: Routes = [
-//   {path: '', component: BlankComponent},
-//   {path: 'about', component: AboutComponent}
-// ];
+const routes: Routes = [
+  {path: '', component: BlankComponent},
+  {path: 'about', component: AboutComponent}
+];
 
 @NgModule({
   declarations: [
@@ -21,7 +21,8 @@ import { BlankComponent } from './blank/blank.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forChild(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

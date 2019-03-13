@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="685a217e-3cbf-4eac-9591-e7698d571501" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,36 +32,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="html" value="11" />
           <entry key="json" value="3" />
           <entry key="py" value="8" />
+          <entry key="scss" value="2" />
           <entry key="ts" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="11" />
           <entry key="JSON" value="2" />
           <entry key="Python" value="8" />
+          <entry key="SCSS" value="2" />
           <entry key="TypeScript" value="11" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="83" />
-          <entry key="html" value="221" />
+          <entry key="css" value="94" />
+          <entry key="html" value="379" />
           <entry key="py" value="10009" />
+          <entry key="scss" value="92" />
           <entry key="ts" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="83" />
-          <entry key="HTML" value="221" />
+          <entry key="CSS" value="94" />
+          <entry key="HTML" value="379" />
           <entry key="Python" value="10009" />
+          <entry key="SCSS" value="92" />
           <entry key="TypeScript" value="264" />
         </counts>
       </usages-collector>
@@ -73,20 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/tslint.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,25 +99,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="14" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -136,18 +158,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -201,7 +211,6 @@
         <option value="$PROJECT_DIR$/station/tests/test_coffeetalk.py" />
         <option value="$PROJECT_DIR$/src/main/angular/manage/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/index.html" />
-        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/blankcomponent/blankcomponent.component.html" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.html" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.spec.ts" />
@@ -210,9 +219,12 @@
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html" />
-        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" />
       </list>
     </option>
   </component>
@@ -569,13 +581,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -684,20 +689,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="15">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
         </state>
       </provider>
     </entry>

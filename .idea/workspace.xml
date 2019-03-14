@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="685a217e-3cbf-4eac-9591-e7698d571501" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_new.db" beforeDir="false" afterPath="$PROJECT_DIR$/app_new.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preload/Untitled" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +32,7 @@
           <entry key="css" value="3" />
           <entry key="html" value="11" />
           <entry key="json" value="3" />
-          <entry key="py" value="8" />
+          <entry key="py" value="11" />
           <entry key="scss" value="2" />
           <entry key="ts" value="11" />
         </counts>
@@ -45,7 +42,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="11" />
           <entry key="JSON" value="2" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="11" />
           <entry key="SCSS" value="2" />
           <entry key="TypeScript" value="11" />
           <entry key="tsconfig" value="1" />
@@ -79,96 +76,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts">
+        <entry file="file://$PROJECT_DIR$/station/calls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="281">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1552367786829" expanded="true" signature="207:212" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="644:1044" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="1068:1445" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="1471:1476" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="1777:1949" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="1994:2363" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html">
+        <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namebox/namebox.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="235">
+              <caret line="139" column="27" lean-forward="true" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1552367786829" expanded="true" signature="760:841" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="1182:1346" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="1387:2098" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="2968:3290" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="3571:3881" ph="..." />
+                <marker date="1552367786829" expanded="true" signature="3921:4712" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/station/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,6 +139,7 @@
       <find>yeild</find>
       <find>yield</find>
       <find>&quot;</find>
+      <find>db.add</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -276,64 +226,13 @@
             <path>
               <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="station" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="talk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="talk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="talk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="talk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="talk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
+              <item name="station" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -526,51 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/station/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/station/calls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1552367786829" expanded="true" signature="207:212" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="644:1044" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="1068:1445" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="1471:1476" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="1777:1949" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="1994:2363" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="2434:2478" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="2721:2937" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="3728:3732" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1552367786829" expanded="true" signature="760:841" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="1182:1346" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="1387:2098" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="2968:3290" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="3571:3881" ph="..." />
-            <marker date="1552367786829" expanded="true" signature="3921:4712" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/manage/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -679,16 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -728,6 +572,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/station/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/station/calls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1552367786829" expanded="true" signature="207:212" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="644:1044" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="1068:1445" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="1471:1476" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="1777:1949" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="1994:2363" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="139" column="27" lean-forward="true" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1552367786829" expanded="true" signature="760:841" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="1182:1346" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="1387:2098" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="2968:3290" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="3571:3881" ph="..." />
+            <marker date="1552367786829" expanded="true" signature="3921:4712" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ from station import app
 import json
 from station import db
 from station.models import *
+from station.calls import *
 
 @app.route('/')
 @app.route('/index')
@@ -14,3 +15,8 @@ def user_list():
     users = User.query.all()
     userDTOs = [{'user':u.id,'username':u.username} for u in users]
     return json.dumps(userDTOs)
+
+
+@app.route('/get_calls/<code>')
+def calls_for_code(code):
+    return json.dumps(call_data_for_code(code))

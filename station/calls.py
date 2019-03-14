@@ -132,4 +132,3 @@ def create_call_list(caller_pool = None):
     return new_calls
 
 
-    return []

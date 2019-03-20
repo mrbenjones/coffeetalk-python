@@ -1,11 +1,20 @@
+  <div class="inst-display">Hello {{caller}}!</div>
+  <div class="inst-display">
+    Welcome to Coffeetalk!
+  </div>
 <br/>
 <button (click)="transmit()">Reveal Name</button>
 <br/>
 <br/>
 <div class="name_output">
-  Call {{displayRecipient}}
+  Contact {{recipient}}
   <br />
-  Email : {{displayEmail}}
+  Email : {{email}}
+  <br/>
+  <div class="question">
+    Your question:
+    {{question}}
+  </div>
 </div>
 
 

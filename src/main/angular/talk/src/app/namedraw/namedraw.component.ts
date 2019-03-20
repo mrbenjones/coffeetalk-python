@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
+import {CallService} from 'src/app/services/call.service';
+import {ActivatedRoute} from "@angular/router";
 import * as $ from 'jquery';
+import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-namedraw',
@@ -8,16 +11,30 @@ import * as $ from 'jquery';
 })
 
 export class NamedrawComponent implements OnInit {
-  caller = 'Ted';
-  recipient = 'Bill';
-  displayRecipient = '                           ';
-  displayEmail = '                             ';
-  email = 'bill.s.preston.esq@excellent.net';
+  caller: string;
+  recipient: string;
+  email: string;
+  question: string;
+  code: string;
+  callService: CallService = null;
+  activatedRoute: ActivatedRoute = null;
+  sub: Subscription;
 
-  constructor() {
+  constructor(callservice: CallService, activatedRoute: ActivatedRoute) {
+    this.callService = callservice;
+    this.activatedRoute = activatedRoute;
+    console.log("CODE:" + this.code)
+
   }
 
   ngOnInit() {
+    var indata = this.callService.calldata("aar");
+    this.caller = indata['caller'];
+    this.recipient = indata['callee'];
+    this.email = indata['email'];
+    this.question = indata['question'];
+    console.log(this.code);
+
   }
 
   transmit() {
@@ -29,12 +46,7 @@ export class NamedrawComponent implements OnInit {
   }
 
   private async rollName(newname: string, newEmail) {
-
-    await this.delay(1000);
-    this.displayRecipient = newname;
-    this.displayEmail = newEmail;
     $('div.name_output').slideDown('slow');
-//    $('div.name_output').css('display','block');
   }
 
 }

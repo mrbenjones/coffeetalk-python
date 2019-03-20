@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="685a217e-3cbf-4eac-9591-e7698d571501" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app_new.db" beforeDir="false" afterPath="$PROJECT_DIR$/app_new.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/station/calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/station/calls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/station/primary.py" beforeDir="false" afterPath="$PROJECT_DIR$/station/primary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preload/.#callers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/call.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/services/call.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/call.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/services/call.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,51 +32,52 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
-          <entry key="html" value="11" />
+          <entry key="css" value="5" />
+          <entry key="html" value="13" />
           <entry key="json" value="3" />
           <entry key="py" value="12" />
           <entry key="scss" value="2" />
-          <entry key="ts" value="11" />
+          <entry key="ts" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="11" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="13" />
           <entry key="JSON" value="2" />
           <entry key="Python" value="12" />
           <entry key="SCSS" value="2" />
-          <entry key="TypeScript" value="11" />
+          <entry key="TypeScript" value="15" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="94" />
-          <entry key="html" value="379" />
+          <entry key="html" value="484" />
           <entry key="py" value="10179" />
           <entry key="scss" value="92" />
-          <entry key="ts" value="264" />
+          <entry key="ts" value="2431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="94" />
-          <entry key="HTML" value="379" />
+          <entry key="HTML" value="484" />
           <entry key="Python" value="10179" />
           <entry key="SCSS" value="92" />
-          <entry key="TypeScript" value="264" />
+          <entry key="TypeScript" value="2431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -79,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/station/calls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="22" />
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1552534015465" expanded="true" signature="207:212" ph="..." />
@@ -94,46 +103,97 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="139" column="27" lean-forward="true" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1552367786829" expanded="true" signature="760:841" ph="..." />
-                <marker date="1552367786829" expanded="true" signature="1182:1346" ph="..." />
-                <marker date="1552367786829" expanded="true" signature="1387:2098" ph="..." />
-                <marker date="1552367786829" expanded="true" signature="2968:3290" ph="..." />
-                <marker date="1552367786829" expanded="true" signature="3571:3881" ph="..." />
-                <marker date="1552367786829" expanded="true" signature="3921:4712" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/station/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/station/primary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="315">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <marker date="1552534275035" expanded="true" signature="252:253" ph="..." />
                 <marker date="1552534275035" expanded="true" signature="252:257" ph="..." />
                 <marker date="1552534275035" expanded="true" signature="441:446" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/services/call.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -180,17 +240,19 @@
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.spec.ts" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.spec.ts" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/namebox/namebox.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.scss" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/about/about.component.html" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.scss" />
-        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html" />
         <option value="$PROJECT_DIR$/station/calls.py" />
         <option value="$PROJECT_DIR$/station/primary.py" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/services/call.service.ts" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html" />
+        <option value="$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -227,6 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +301,57 @@
               <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="talk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="talk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="talk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeetalk-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="talk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="namedraw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeetalk-python" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +368,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,6 +378,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/src/main/angular/talk/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/angular/talk/src/app/services" />
+      <recent name="$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -351,7 +470,7 @@
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -402,42 +521,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#19#32#0" expanded="true" />
-            <marker date="1551660169181" expanded="true" signature="752:757" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/load_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="e#19#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_coffeetalk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/load_database.py" />
+    <entry file="file://$PROJECT_DIR$/test/test_coffeetalk.py" />
     <entry file="file://$PROJECT_DIR$/src/main/angular/manage/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -456,33 +550,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blankcomponent/blankcomponent.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blankcomponent/blankcomponent.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/aboutcomponent/aboutcomponent.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namebox/namebox.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,30 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -565,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/blank/blank.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -579,30 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/station/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/station/tests/test_coffeetalk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="139" column="27" lean-forward="true" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+        <state relative-caret-position="2010">
+          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1552367786829" expanded="true" signature="760:841" ph="..." />
@@ -615,10 +635,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/station/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/station/primary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1552534275035" expanded="true" signature="252:253" ph="..." />
+            <marker date="1552534275035" expanded="true" signature="252:257" ph="..." />
+            <marker date="1552534275035" expanded="true" signature="441:446" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/station/calls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="22" />
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1552534015465" expanded="true" signature="207:212" ph="..." />
@@ -631,15 +674,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/station/primary.py">
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1552534275035" expanded="true" signature="252:253" ph="..." />
-            <marker date="1552534275035" expanded="true" signature="252:257" ph="..." />
-            <marker date="1552534275035" expanded="true" signature="441:446" ph="..." />
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/services/call.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/namedraw/namedraw.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/angular/talk/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

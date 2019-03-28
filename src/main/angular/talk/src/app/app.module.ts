@@ -9,8 +9,9 @@ import { BlankComponent } from './blank/blank.component';
 import {CallService} from "./services/call.service";
 
 const routes: Routes = [
-  {path: '', component: BlankComponent},
-  {path: 'about', component: AboutComponent}
+  {path : '', component:BlankComponent},
+  {path : 'about', component:AboutComponent},
+  {path : 'call/:code' , component:NamedrawComponent}
 ];
 
 @NgModule({
@@ -23,7 +24,7 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forChild(routes)
+    RouterModule.forRoot(routes)
   ],
   providers: [CallService],
   bootstrap: [AppComponent]

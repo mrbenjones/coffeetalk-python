@@ -23,11 +23,11 @@ export class NamedrawComponent implements OnInit {
   constructor(callservice: CallService, activatedRoute: ActivatedRoute) {
     this.callService = callservice;
     this.activatedRoute = activatedRoute;
-    console.log("CODE:" + this.code)
 
   }
 
   ngOnInit() {
+        this.activatedRoute.params.subscribe(params=>{this.code=params['code'];});
     var indata = this.callService.calldata("aar");
     this.caller = indata['caller'];
     this.recipient = indata['callee'];

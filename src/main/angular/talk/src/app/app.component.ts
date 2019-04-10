@@ -1,5 +1,5 @@
 import {Component} from '@angular/core'
-import {ActivatedRoute,Params} from "@angular/router";
+import {ActivatedRoute,Params,Router} from "@angular/router";
 import {CallService} from 'src/app/services/call.service';
 import {Subscription} from 'rxjs';
 
@@ -20,14 +20,12 @@ export class AppComponent {
   callService: CallService;
   sub: Subscription;
 
-  constructor(callservice: CallService, route:ActivatedRoute) {
-
+  constructor(callservice: CallService, private router:Router,route:ActivatedRoute) {
     this.callService = callservice;
+    this.activatedRoute  = route;
   }
 
   ngOnInit() {
-
-    var indata = this.callService.calldata(this.code);
 
   }
 

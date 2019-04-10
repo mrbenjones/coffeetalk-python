@@ -11,7 +11,10 @@ import {CallService} from "./services/call.service";
 const routes: Routes = [
   {path : '', component:BlankComponent},
   {path : 'about', component:AboutComponent},
-  {path : 'call/:code' , component:NamedrawComponent}
+  {path : 'call' , component:AppComponent,
+  children : [
+    {path: 'draw/:code',component:NamedrawComponent}
+  ]}
 ];
 
 @NgModule({

@@ -20,3 +20,11 @@ def user_list():
 @app.route('/get_calls/<code>')
 def calls_for_code(code):
     return json.dumps(call_data_for_code(code))
+
+@app.route('/get_codes/')
+def names_and_codes():
+    return json.dumps(callers_and_codes())
+
+@app.route('/all_calls/')
+def all_call_data():
+    return json.dumps(all_calls())

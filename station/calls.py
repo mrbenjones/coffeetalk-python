@@ -11,6 +11,14 @@ def callers_for_code(code):
     """
     return db.session.query(Caller).filter(Caller.code==code).all()
 
+def all_calls():
+    return [{'caller' : c.caller,
+             'callee' : c.callee} for c in db.session.query(Call).all()]
+
+def callers_and_codes():
+    callers = db.session.query(Caller).all()
+
+    return [{'name': c.full_name , 'code': c.code} for c in callers]
 def call_data_for_code(code):
     """
     Return callee, question, and call for the code of the caller.
@@ -31,7 +39,10 @@ def recipient_question_coroutine(caller):
     for call in calls:
         question = db.session.query(Question).get(call.question)
         callee = db.session.query(Caller).get(call.callee)
+        caller = db.session.query(Caller).get(call.caller)
         yield {'question': question.text,
+               'code' : caller.code,
+                'caller' : caller.full_name,
                'callee' : callee.full_name,
                'email' : callee.email}
 
@@ -122,7 +133,7 @@ def create_call_list(caller_pool = None):
     N = len(pool_of_callers)
     for (i,c) in enumerate(pool_of_callers):
         links = prior_links(c)
-        j=0
+        j=1
         while(j<N):
             d = pool_of_callers[(i+j) % N]
             if (d not in links):

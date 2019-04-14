@@ -3,6 +3,7 @@ import {CallService} from 'src/app/services/call.service';
 import {ActivatedRoute} from "@angular/router";
 import * as $ from 'jquery';
 import {Subscription} from 'rxjs';
+import {CallData} from "../call-data";
 
 @Component({
   selector: 'app-namedraw',
@@ -19,7 +20,6 @@ export class NamedrawComponent implements OnInit {
   callService: CallService = null;
   activatedRoute: ActivatedRoute = null;
   sub: Subscription;
-
   constructor(callservice: CallService, activatedRoute: ActivatedRoute) {
     this.callService = callservice;
     this.activatedRoute = activatedRoute;
@@ -28,12 +28,20 @@ export class NamedrawComponent implements OnInit {
 
   ngOnInit() {
         this.activatedRoute.params.subscribe(params=>{this.code=params['code'];});
-    var indata = this.callService.calldata("aar");
-    this.caller = indata['caller'];
-    this.recipient = indata['callee'];
-    this.email = indata['email'];
-    this.question = indata['question'];
-    console.log(this.code);
+        var cd:Promise<CallData> = this.callService.calldata(this.code);
+      cd.then(
+        s=> {
+          console.log(s[0].caller);
+          this.caller = s[0].caller;
+          this.recipient = s[0].callee;
+          this.question = s[0].question;
+          this.code = s[0].code;
+          this.email = s[0].email;
+        }
+
+      );
+
+
 
   }
 

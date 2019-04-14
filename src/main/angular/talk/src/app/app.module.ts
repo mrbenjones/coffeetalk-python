@@ -7,6 +7,7 @@ import {RouterModule, Routes} from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BlankComponent } from './blank/blank.component';
 import {CallService} from "./services/call.service";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 const routes: Routes = [
   {path : '', component:BlankComponent},
@@ -27,9 +28,10 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [CallService],
+  providers: [CallService,HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {

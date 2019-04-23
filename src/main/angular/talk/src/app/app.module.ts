@@ -29,7 +29,7 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes,{useHash: true})
   ],
   providers: [CallService,HttpClientModule],
   bootstrap: [AppComponent]

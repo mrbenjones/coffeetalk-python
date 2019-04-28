@@ -10,7 +10,7 @@ import {HttpClient} from "@angular/common/http";
 )
 
 export class CallService {
-  baseURI: string = "http://localhost:5000/get_calls";
+baseURI: string = "/engine/get_calls";
   code: string = "unknown";
   caller: string = "George";
   callee: string = "Martha";

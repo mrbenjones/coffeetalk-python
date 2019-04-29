@@ -8,7 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { BlankComponent } from './blank/blank.component';
 import {CallService} from "./services/call.service";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
-
+import {MAT_DIALOG_DEFAULT_OPTIONS, MatDialogModule} from '@angular/material';
 const routes: Routes = [
   {path : '', component:BlankComponent},
   {path : 'about', component:AboutComponent},
@@ -29,9 +29,11 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes,{useHash: true})
   ],
-  providers: [CallService,HttpClientModule],
+  providers: [CallService,HttpClientModule,{
+    provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {CallService} from 'src/app/services/call.service';
 import {ActivatedRoute} from "@angular/router";
 import * as $ from 'jquery';
 import {Subscription} from 'rxjs';
 import {CallData} from "../call-data";
+import {AboutComponent} from "../about/about.component";
 
 @Component({
   selector: 'app-namedraw',
@@ -20,10 +21,10 @@ export class NamedrawComponent implements OnInit {
   callService: CallService = null;
   activatedRoute: ActivatedRoute = null;
   sub: Subscription;
-  constructor(callservice: CallService, activatedRoute: ActivatedRoute) {
+  constructor(callservice: CallService, activatedRoute: ActivatedRoute
+              ) {
     this.callService = callservice;
     this.activatedRoute = activatedRoute;
-
   }
 
   ngOnInit() {

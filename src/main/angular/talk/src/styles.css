@@ -13,6 +13,13 @@ body {
   background-image: url('assets/images/question.png');
 }
 
+.back{
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  background-image: url('assets/images/delete.png');
+}
+
 
 
 .pchb{

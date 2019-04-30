@@ -3,6 +3,7 @@
 import PyPDF2
 import re
 import json
+import csv
 
 lastnameRE=re.compile("^[A-Z]{3,}")
 phoneRE=re.compile("\d{3,}.?\d{4,}")
@@ -38,11 +39,21 @@ def spit_records(text):
             yield {'name' : "{} {}".format(b,a),
                    'email':test_email}
 
-            
 
+def records_from_csv(filename):
+    with open(filename,newline='') as csvfile:
+        resultReader = csv.reader(csvfile,delimiter=",",quotechar="\"")
+        for row in resultReader:
+            name=row[0]
+            nameFields = [n.strip() for n in name.split(",")]
+            yield {'name' : "{} {}".format(nameFields[1],nameFields[0]),
+                   'email' : row[1].strip()}
+            
+        
             
 if (__name__=="__main__"):
-    names = [n for n in spit_records(extract_names('names.pdf'))]
+#    names = [n for n in spit_records(extract_names('names.pdf'))]
+    names = list(records_from_csv("bureaunames.csv"))
     print(names)
     print(len(names))
     with open("names.json","w+") as outfile:

@@ -9,7 +9,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-<div class="info" onclick="explain_master()"></div>
+<div class="info" id="helpbutton" onclick="explain_master()"></div>
 <div class="help_page" id="phcb_description">
   <div class="left-menu">
 
@@ -59,6 +59,6 @@
 
   </div>
 </div>
-  <app-root></app-root>
+  <app-root (redirectEvent)="redirectToCode($event)" ></app-root>
 </body>
 </html>

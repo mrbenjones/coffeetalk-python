@@ -1,7 +1,6 @@
 from station.models import *
 from station import db
 import random
-from sqlalchemy import or_
 
 def callers_for_code(code):
     """
@@ -107,13 +106,7 @@ def available_callers():
     return [c for c in all_callers() if not(caller_active(c))]
 
 
-def previously_assigned(caller):
-    """
-    Return true if there is an inactive call between caller and callee
-    :param caller:
-    :param callee:
-    :return: true if there has been a call between caller and callee.  False otherwise.
-    """
+
 
 
 def create_call_list(caller_pool = None):

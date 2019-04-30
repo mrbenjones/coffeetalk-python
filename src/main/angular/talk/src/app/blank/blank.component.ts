@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-blank',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blank.component.scss']
 })
 export class BlankComponent implements OnInit {
-
+  @Output() redirectEvent = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
   }
+    gotoCode(code:string){
+      this.redirectEvent.emit(code);
+    }
+
+
 
 }

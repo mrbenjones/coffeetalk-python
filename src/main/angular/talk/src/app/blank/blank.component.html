@@ -1,6 +1,5 @@
 <div class="left-menu">
 <ul>
-  <li><a [routerLink] = "['about']" class="abt">About Coffeetalk</a></li>
-  <li><a [routerLink] = "['call/draw','aabbc']" class="abt">Draw Name</a></li>
+  <li><a [routerLink]="['/call/draw/'+callCode.value]">Draw coffeetalk connection:</a>&nbsp; &nbsp;  &nbsp; Code: <input #callCode/></li>
 </ul>
   </div>

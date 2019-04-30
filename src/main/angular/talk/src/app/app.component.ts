@@ -1,4 +1,4 @@
-import {Component} from '@angular/core'
+import {Component, EventEmitter, Output} from '@angular/core'
 import {ActivatedRoute,Params,Router} from "@angular/router";
 import {CallService} from 'src/app/services/call.service';
 import {Subscription} from 'rxjs';
@@ -12,10 +12,10 @@ import {Subscription} from 'rxjs';
 
 
 export class AppComponent {
-  vendor:string;
-  title:string;
-  caller:string;
-  code:string;
+  vendor: string;
+  title: string;
+  caller: string;
+  code: string;
   activatedRoute: ActivatedRoute;
   callService: CallService;
   sub: Subscription;
@@ -29,7 +29,7 @@ export class AppComponent {
 
   }
 
-  explain(){
-
+  redirectToCode(code:string){
+    alert(code);
   }
 }

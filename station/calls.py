@@ -17,7 +17,7 @@ def all_calls():
 def callers_and_codes():
     callers = db.session.query(Caller).all()
 
-    return [{'name': c.full_name , 'code': c.code} for c in callers]
+    return [{'name': c.full_name , 'email' : c.email,'code': c.code} for c in callers]
 def call_data_for_code(code):
     """
     Return callee, question, and call for the code of the caller.

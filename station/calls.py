@@ -106,9 +106,6 @@ def available_callers():
     return [c for c in all_callers() if not(caller_active(c))]
 
 
-
-
-
 def create_call_list(caller_pool = None):
     """
     Return a list of calls assigned from the list of potential callers.

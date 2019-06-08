@@ -18,6 +18,12 @@ def callers_and_codes():
     callers = db.session.query(Caller).all()
 
     return [{'name': c.full_name , 'email' : c.email,'code': c.code} for c in callers]
+
+def nameKey(name):
+    namesplitting = name.split()
+    return (namesplitting[-1],"_".join(namesplitting[:-1]))
+
+
 def call_data_for_code(code):
     """
     Return callee, question, and call for the code of the caller.
@@ -26,7 +32,7 @@ def call_data_for_code(code):
     :return: A dictionary with keys pointing to the caller object being called, and the question asked.
     """
 
-    return [rq for c in callers_for_code(code) for rq in recipient_question_coroutine(c)]
+    return sorted([rq for c in callers_for_code(code) for rq in recipient_question_coroutine(c)],key=lambda c:nameKey(c['caller']))
 
 def recipient_question_coroutine(caller):
     """
@@ -35,6 +41,7 @@ def recipient_question_coroutine(caller):
     :return:
     """
     calls = db.session.query(Call).filter(Call.caller==caller.caller).all()
+            
     for call in calls:
         question = db.session.query(Question).get(call.question)
         callee = db.session.query(Caller).get(call.callee)

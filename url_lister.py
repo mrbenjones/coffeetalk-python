@@ -20,10 +20,13 @@ if (__name__ == "__main__"):
     csvFile.write("Name,email,code,link\n")
     print("<html><head><title>Coffeetalk Links</title><body>")
     for item in callers_and_codes():
-        csvFile.write("\"{}\",\"{}\",\"{}\",\"{}\"\n".format(
+        call_destination = call_data_for_code(item['code'])
+        call_to = ",".join([ccc['callee'] for ccc in call_destination])
+        csvFile.write("\"{}\",\"{}\",\"{}\",\"{}\",\"{}\"\n".format(
             item['name'],item['email'],
             item['code'],
-            caller_URI.format(item['code'])
+            caller_URI.format(item['code']),
+            call_to
         ))
         print(define_name(item))
         print("\n\n\n\n")

@@ -17,7 +17,7 @@ def all_calls():
 def callers_and_codes():
     callers = db.session.query(Caller).all()
 
-    return [{'name': c.full_name , 'email' : c.email,'code': c.code} for c in callers]
+    return sorted([{'name': c.full_name , 'email' : c.email,'code': c.code} for c in callers],key=lambda c:nameKey(c['name']))
 
 def nameKey(name):
     namesplitting = name.split()

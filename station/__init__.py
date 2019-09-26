@@ -6,7 +6,8 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 app.config.from_object(Config)
-cors = CORS(app, resources={r"/get_calls/*": {"origins": "*"}})
+#cors = CORS(app, resources={r"/get_calls/*": {"origins": "*"}})
+cors = CORS(app)
 db = SQLAlchemy(app)
 migrate = Migrate(app,db)
 
